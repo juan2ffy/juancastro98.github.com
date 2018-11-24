@@ -1,0 +1,192 @@
+html
+{
+    font-family: 'Nunito', sans-serif;
+}
+
+.container
+{
+    background: #F1F2B5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #135058, #F1F2B5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #135058, #F1F2B5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content
+{
+    background-color: white;
+    /* max-width: 960px;
+    max-height: 900px;
+    width: 100%;
+    height: 100%; */
+    height: 80vh;
+    width: 85vw;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.20) , 0 3px 6px rgba(0,0,0.23);
+    position: relative;
+    padding: 0.5em;
+    border-radius: 20px;
+    overflow: scroll;
+}
+
+.table
+{
+    width: 100%;
+    border-spacing: 0;
+}
+
+.table th, 
+.table td
+{
+    padding: 1em;
+    text-align: left;
+}
+
+.table tr:nth-child(even)
+{
+    background-color: #4daf95
+}
+
+
+
+th
+{
+    display: none;
+
+
+}
+
+td
+{
+    display: block;
+}
+
+.fa-star
+{
+    color: #e5cf40
+}
+
+/* .inline
+{
+    display: inline-block;
+} */
+
+.center
+{
+    text-align: center;
+}
+
+.underline
+{
+    border-bottom: solid 8px #43C6AC;
+    padding-bottom: 15px;
+}
+
+.text
+{
+    margin: 10px;
+}
+
+li{
+    margin: 10px;
+}
+
+.position
+{
+    padding: 5px;
+    background-color: #43C6AC
+    
+}
+
+/* .actions
+{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+} */
+
+.actions
+{
+    position: sticky;
+    top: 1em;
+    left: 1em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close
+{
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #43C6AC
+    
+    
+}
+
+a{
+    color: black
+}
+
+.title
+{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+i:hover
+{
+    color: black;
+}
+
+.item-image
+{
+    display: none;
+}
+
+iframe{
+    width: 75vw;
+}
+
+@media(min-width:600px){
+    th{
+        display: table-cell;
+    }
+    td{
+        display: table-cell;
+    }
+
+    td:nth-of-type(1){
+        font-size: 1em;
+        color: black;
+    }
+    .content{
+        width: 70vw;
+        height: 70vh;
+        padding: 1.8em;
+    }
+    .item-image
+{
+    display: inline-block;
+}
+ .inline
+{
+    display: inline-block;
+} 
+iframe{
+    width: 400px;
+    height: 248px;
+}
+}
+
+.margin
+{
+    background-color: black;
+    color: white;
+}
